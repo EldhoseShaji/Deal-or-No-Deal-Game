@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="779.0" prefWidth="1040.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="deal_or_no_deal.GameController">
+   <children>
+      <AnchorPane layoutX="14.0" layoutY="84.0" prefHeight="599.0" prefWidth="222.0" style="-fx-background-color: black; -fx-border-color: gold; -fx-border-width: 5;">
+         <children>
+            <ImageView fx:id="dollar01" fitHeight="35.0" fitWidth="176.0" layoutX="27.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/0.1.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="dollar1" fitHeight="35.0" fitWidth="176.0" layoutX="27.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/1.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="dollar5" fitHeight="35.0" fitWidth="176.0" layoutX="27.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/5.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="dollar10" fitHeight="35.0" fitWidth="176.0" layoutX="27.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/10.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="dollar25" fitHeight="35.0" fitWidth="176.0" layoutX="27.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/25.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="dollar50" fitHeight="35.0" fitWidth="176.0" layoutX="27.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/50.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="dollar75" fitHeight="35.0" fitWidth="176.0" layoutX="27.0" layoutY="267.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/75.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="dollar100" fitHeight="35.0" fitWidth="176.0" layoutX="27.0" layoutY="315.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/100.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="dollar200" fitHeight="35.0" fitWidth="176.0" layoutX="27.0" layoutY="364.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/200.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="dollar300" fitHeight="35.0" fitWidth="176.0" layoutX="27.0" layoutY="412.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/300.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="dollar400" fitHeight="35.0" fitWidth="176.0" layoutX="27.0" layoutY="461.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/400.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="dollar500" fitHeight="35.0" fitWidth="176.0" layoutX="27.0" layoutY="508.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/500.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="dollar750" fitHeight="35.0" fitWidth="176.0" layoutX="27.0" layoutY="552.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/750.PNG" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="794.0" layoutY="84.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="592.0" prefWidth="222.0" style="-fx-background-color: black; -fx-border-color: gold; -fx-border-width: 5;">
+         <children>
+            <ImageView fx:id="dollar1000" fitHeight="35.0" fitWidth="176.0" layoutX="23.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/1000.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="dollar5000" fitHeight="35.0" fitWidth="176.0" layoutX="23.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/5000.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="dollar10000" fitHeight="35.0" fitWidth="176.0" layoutX="23.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/10000.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="dollar25000" fitHeight="35.0" fitWidth="176.0" layoutX="23.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/25000.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="dollar50000" fitHeight="35.0" fitWidth="176.0" layoutX="23.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/50000.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="dollar75000" fitHeight="35.0" fitWidth="176.0" layoutX="23.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/75000.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="dollar100000" fitHeight="35.0" fitWidth="176.0" layoutX="23.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/100000.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="dollar200000" fitHeight="35.0" fitWidth="176.0" layoutX="23.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/200000.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="dollar300000" fitHeight="35.0" fitWidth="176.0" layoutX="23.0" layoutY="371.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/300000.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="dollar400000" fitHeight="35.0" fitWidth="176.0" layoutX="23.0" layoutY="413.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/400000.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="dollar500000" fitHeight="35.0" fitWidth="176.0" layoutX="23.0" layoutY="458.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/500000.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="dollar750000" fitHeight="35.0" fitWidth="176.0" layoutX="23.0" layoutY="499.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/750000.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="dollar1000000" fitHeight="35.0" fitWidth="176.0" layoutX="23.0" layoutY="540.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/1000000.PNG" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button fx:id="box1" layoutX="286.0" layoutY="120.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="80.0" style="-fx-border-color: gold; -fx-border-width: 3; -fx-font-weight: bold;" text="1" />
+      <Button layoutX="386.0" layoutY="120.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="80.0" style="-fx-border-color: gold; -fx-border-width: 3; -fx-font-weight: bold;" text="2" />
+      <Button layoutX="480.0" layoutY="120.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="80.0" style="-fx-border-color: gold; -fx-border-width: 3; -fx-font-weight: bold;" text="3" />
+      <Button layoutX="574.0" layoutY="120.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="80.0" style="-fx-border-color: gold; -fx-border-width: 3; -fx-font-weight: bold;" text="4" />
+      <Button layoutX="671.0" layoutY="120.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="80.0" style="-fx-border-color: gold; -fx-border-width: 3; -fx-font-weight: bold;" text="5" />
+      <Button layoutX="286.0" layoutY="205.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="80.0" style="-fx-border-color: gold; -fx-border-width: 3; -fx-font-weight: bold;" text="6" />
+      <Button layoutX="386.0" layoutY="205.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="80.0" style="-fx-border-color: gold; -fx-border-width: 3; -fx-font-weight: bold;" text="7" />
+      <Button layoutX="480.0" layoutY="205.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="80.0" style="-fx-border-color: gold; -fx-border-width: 3; -fx-font-weight: bold;" text="8" />
+      <Button layoutX="574.0" layoutY="205.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="80.0" style="-fx-border-color: gold; -fx-border-width: 3; -fx-font-weight: bold;" text="9" />
+      <Button layoutX="671.0" layoutY="205.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="80.0" style="-fx-border-color: gold; -fx-border-width: 3; -fx-font-weight: bold;" text="10" />
+      <Button layoutX="338.0" layoutY="287.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="80.0" style="-fx-border-color: gold; -fx-border-width: 3; -fx-font-weight: bold;" text="11" />
+      <Button layoutX="622.0" layoutY="287.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="80.0" style="-fx-border-color: gold; -fx-border-width: 3; -fx-font-weight: bold;" text="12" />
+      <Button layoutX="400.0" layoutY="365.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="80.0" style="-fx-border-color: gold; -fx-border-width: 3; -fx-font-weight: bold;" text="13" />
+      <Button layoutX="560.0" layoutY="365.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="80.0" style="-fx-border-color: gold; -fx-border-width: 3; -fx-font-weight: bold;" text="14" />
+      <Button layoutX="338.0" layoutY="435.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="80.0" style="-fx-border-color: gold; -fx-border-width: 3; -fx-font-weight: bold;" text="15" />
+      <Button layoutX="622.0" layoutY="435.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="80.0" style="-fx-border-color: gold; -fx-border-width: 3; -fx-font-weight: bold;" text="16" />
+      <Button layoutX="286.0" layoutY="516.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="80.0" style="-fx-border-color: gold; -fx-border-width: 3; -fx-font-weight: bold;" text="17" />
+      <Button layoutX="386.0" layoutY="516.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="80.0" style="-fx-border-color: gold; -fx-border-width: 3; -fx-font-weight: bold;" text="18" />
+      <Button layoutX="480.0" layoutY="516.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="80.0" style="-fx-border-color: gold; -fx-border-width: 3; -fx-font-weight: bold;" text="19" />
+      <Button layoutX="574.0" layoutY="516.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="80.0" style="-fx-border-color: gold; -fx-border-width: 3; -fx-font-weight: bold;" text="20" />
+      <Button layoutX="671.0" layoutY="516.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="80.0" style="-fx-border-color: gold; -fx-border-width: 3; -fx-font-weight: bold;" text="21" />
+      <Button layoutX="286.0" layoutY="593.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="80.0" style="-fx-border-color: gold; -fx-border-width: 3; -fx-font-weight: bold;" text="22" />
+      <Button layoutX="386.0" layoutY="593.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="80.0" style="-fx-border-color: gold; -fx-border-width: 3; -fx-font-weight: bold;" text="23" />
+      <Button layoutX="480.0" layoutY="593.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="80.0" style="-fx-border-color: gold; -fx-border-width: 3; -fx-font-weight: bold;" text="24" />
+      <Button layoutX="574.0" layoutY="593.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="80.0" style="-fx-border-color: gold; -fx-border-width: 3; -fx-font-weight: bold;" text="25" />
+      <Button layoutX="671.0" layoutY="593.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="80.0" style="-fx-border-color: gold; -fx-border-width: 3; -fx-font-weight: bold;" text="26" />
+      <Button fx:id="MyBreifcase" layoutX="33.0" layoutY="705.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="80.0" style="-fx-border-color: gold; -fx-border-width: 3; -fx-font-weight: bold;" text="?" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="125.0" layoutY="705.0" prefHeight="49.0" prefWidth="102.0" text="Your Breifcase" textFill="#f5e100">
+         <font>
+            <Font name="Forte" size="14.0" />
+         </font></Label>
+      <Label fx:id="Text" alignment="CENTER" contentDisplay="CENTER" layoutX="254.0" layoutY="683.0" prefHeight="80.0" prefWidth="523.0" style="-fx-background-color: black; -fx-border-color: gold; -fx-border-width: 5;" text="Selelect a Breifcase to get Started" textFill="#f5e100">
+         <font>
+            <Font name="Chiller" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="name" alignment="CENTER" contentDisplay="CENTER" layoutX="19.0" layoutY="14.0" prefHeight="58.0" prefWidth="214.0" style="-fx-background-color: black; -fx-border-color: gold; -fx-border-width: 5;" textFill="#f5e100">
+         <font>
+            <Font name="Chiller" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="283.0" layoutY="23.0" prefHeight="80.0" prefWidth="474.0" style="-fx-background-color: black; -fx-border-color: gold; -fx-border-width: 5;" text="Welcome To Deal or No Deal" textFill="#f5e100">
+         <font>
+            <Font name="Forte" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

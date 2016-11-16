@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="deal_or_no_deal.LoginWindowController">
+   <children>
+      <Button layoutX="208.0" layoutY="200.0" mnemonicParsing="false" onAction="#playGame" prefHeight="60.0" prefWidth="184.0" text="Play Game!" />
+      <Label alignment="CENTER" layoutX="57.0" layoutY="17.0" prefHeight="76.0" prefWidth="495.0" style="-fx-background-color: black; -fx-border-color: gold; -fx-border-width: 5;" text="Welcome To Deal or No Deal !" textFill="#f5e100">
+         <font>
+            <Font name="Forte" size="36.0" />
+         </font></Label>
+      <Label layoutX="71.0" layoutY="117.0" prefHeight="47.0" prefWidth="212.0" style="-fx-background-color: black;" text="Please Enter Name to Continue:" textFill="#f5e100">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <TextField fx:id="Name" layoutX="305.0" layoutY="123.0" onAction="#playGame" prefHeight="36.0" prefWidth="233.0" />
+      <RadioButton fx:id="original" layoutX="14.0" layoutY="354.0" mnemonicParsing="false" selected="true" text="Original" textFill="#1910b2" />
+      <RadioButton fx:id="pokemon" layoutX="103.0" layoutY="354.0" mnemonicParsing="false" text="Pokemon" textFill="#2519ab" />
+      <RadioButton fx:id="cars" layoutX="208.0" layoutY="354.0" mnemonicParsing="false" text="Cars" textFill="#1f1fc3" />
+      <Label layoutX="103.0" layoutY="287.0" prefHeight="47.0" prefWidth="91.0" text="Themes" textFill="#0019f5" underline="true">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="422.0" layoutY="295.0" prefHeight="47.0" prefWidth="91.0" text="Currency" textFill="#0019f5" underline="true">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="cb" layoutX="436.0" layoutY="350.0" prefHeight="25.0" prefWidth="63.0" />
+   </children>
+</AnchorPane>
